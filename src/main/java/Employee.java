@@ -1,5 +1,6 @@
 public class Employee {
-    //employee data
+    //the class contains data about the employee
+
     private String nameAndLastName;
     private int age;
     private String email;
@@ -13,5 +14,26 @@ public class Employee {
         this.employment = employment;
         this.telephoneNumber = telephoneNumber;
     }
+
+    public String getNameAndLastName() {
+        return nameAndLastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getEmployment() {
+        return employment;
+    }
+
+    public String getTelephoneNumber() {
+        return telephoneNumber;
+    }
+
 
 }
